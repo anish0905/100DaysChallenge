@@ -20,6 +20,17 @@
 
 function checkTriangleType(x,y,z)
 {
+    if(x===y && y===z)
+    {
+        return "equilateral";
+    }
+    else if(x===y || y===z || z===x){
+        return "isosceles";
+
+    }
+    else{
+        return "scalene";
+    }
 
 }
-checkTriangleType(3,3,3)
+console.log(checkTriangleType(3,5,9));
