@@ -86,8 +86,8 @@ Day5>
 6
 // Example usage:
 8 // console.log(sortAscending ([5, 3, 1, 8])); // Output: [1, 3, 5, 8]
-9 console.log(sortAscending ([5, 3, 10, 8])); // Output: [3, 5, 8,10]
-10 console.log(typeof sortAscending [2]);
+// 9 console.log(sortAscending ([5, 3, 10, 8])); // Output: [3, 5, 8,10]
+// 10 console.log(typeof sortAscending);
 11
 12 //todo Requirements:
 13 //? The function should take an array of numbers as input.
@@ -95,4 +95,53 @@ Day5>
 15 //7 The original array should remain unchanged.
 16 //? You are not allowed to use the built-in sort() method.
 
+Days6
+// Write a function to determine whether a given string is a palindrome or not. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, ignoring spaces, punctuation, and
+// capitalization.
 
+
+Days7
+
+1 // Write a function findMax that takes an array of numbers as input and returns the maximum number in the array.
+
+Days8
+1 // Challenge: Factorial Finder
+integer num as input and returns its factorial. The factorial of a non-negative integer n, denoted as n!, is the product of all positive integers less than or equal to n. The factorial of 0 is defined as 1.
+م
+4
+5 // Here are some examples of factorial calculations:
+6
+7 // factorial(0) => 1
+8 // factorial(1) => 1
+9 // factorial(2) => 2
+10 // factorial(3) => 6
+11 // factorial(4) => 24
+12 // factorial(5) => 120
+13 // Your function should work for any non-negative integer input.
+
+Days9
+1 // Challenge: Calculate the Average
+2
+3 // Write a function called calculateAverage that takes an array of numbers as input and returns the average of those numbers.
+4
+5 // Your function should:
+6
+7 // Accept an array of numbers as input.
+8 // Calculate the sum of all the numbers in the array.
+9 // Divide the sum by the total number of elements in the array to find the average.
+10 // Return the calculated average
+
+
+
+
+
+
+
+
+Days22
+//? Write a JavaScript function findMedian(arr) that takes an array of numbers as input and returns the median value. If the array has an even number of elements, return the average of the two middle values.
+//? For example, the median of 3, 3, 5, 9, 15 is 5. If there is an even number of observations, then there is no single middle value; the median is then usually defined to be the mean of the two middle values: so the median of 3, 5, 7, 9 is (5+7)/26.
+//todo Tips
+//? Sort the array in ascending order.
+//? If the array has an odd number of elements, the median is the middle element.
+//? If the array has an even number of elements, the median is the average of the two middle elements
