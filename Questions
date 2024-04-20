@@ -131,11 +131,102 @@ Days9
 9 // Divide the sum by the total number of elements in the array to find the average.
 10 // Return the calculated average
 
+Days10
+// Write a function arraysAreEqual that takes two arrays arr1 and arr2 as input and returns true if the arrays are equal (i.e., contain the same elements in the same order), and false otherwise.
+2
+3
+4
+5
+// Example usage:
+// console.log(arraysAreEqual([1, 2, 3], [1, 2, 3])); //
+// Output: true
+// 6
+// 7
+// console.log(arraysAreEqual([1, 2, 3], [1, 2, 4])); //
+// Output: false
+// console.log(arraysAreEqual([], [])); // Output: true
+
+
+Days11
+
+//11: Write a function that takes a number as input and returns the sum of its digits.
+2
+3
+4 // Example usage:
+5 console.log(sumOfDigits (1234)); // Output: 10
+6 console.log(sumOfDigits (4321)); // Output: 10
+7 console.log(sumOfDigits (123456)); // Output: 21
+8
+9
+10
+11 // Constraints:
+12
+13 // The input number will always be a positive integer.
+14
+// The input number can have multiple digits.
+15 // The output should be the sum of all the digits in the input number.
+16
+17 // Homework
+18 // This function calculates the sum of digits without converting the number
+to a string.
+19
 
 
 
+Days12
+
+// 12: Write a function that takes an array of integers as input and removes any duplicate elements, returning a new array with only the unique elements.
+2
+3
+4
+م
+5 // Example usage:
+6 console.log(removeDuplicates ([1, 2, 3, 2, 1, 4])); // Output: [1, 2, 3, 4]
+7 console.log(removeDuplicates ([5, 6, 7, 7, 8, 8, 9])); // Output: [5, 6, 7, 8,
+9]
+8 console.log(removeDuplicates ([1, 2, 3, 4])); // Output: [1, 2, 3, 4]
+9 console.log(removeDuplicates ([])); // Output: []
+10
+11
+12 // The new Set() method in JavaScript creates a new Set object. A Set object is a collection of unique values. It can store any type of value, whether primitive values or object references.
+13
+14 // Constraints:
+15
+16 // The input array may contain both positive and negative integers.
+17 // The input array may be empty.
 
 
+
+Days13
+// 13: Write a function that takes a string as input and returns the count of vowels in that string. Consider 'a', 'e', 'i', 'o', and 'u' as vowels (both lowercase and uppercase).
+2
+3
+4
+5 // Example usage:
+6 console.log(countVowels ("Helloo world")); // Output: 3
+7 console.log(countVowels ("The quick brown fox")); // Output: 5
+8 console.log(countVowels ("Brrrp")); // Output: 0
+9
+10 // Constraints:
+11
+12 // The input string may contain letters in both uppercase and lowercase.
+13 // The output should be a non-negative integer representing the count of vowels in the input string.
+
+Days14
+// 14: Write a function called isPowerOfTwo that takes an integer num as input and returns true if num is a power of two, and false otherwise.
+
+5
+6 // Example usage:
+7 console.log(isPowerOfTwo (8)); // Output: true
+8 console.log(isPowerOfTwo (7)); // Output: false
+9
+10 // Notes:
+11
+12 // The input num will be a positive integer.
+13 // Zero (0) and negative integers are not considered powers of two.
+14 // The function should return true if the given number is a power of 2, and false otherwise.
+15
+16 // we can solve it using bitwise operator too but its your chance to do it and let me know in the comment section
 
 
 Days22
