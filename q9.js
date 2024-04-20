@@ -25,3 +25,23 @@ function calculateAverage(no)
 }
 
 console.log(calculateAverage([4,10,2,8]));
+
+
+
+// function calculateAverage1(no)
+// {
+//     no.reduce((acc,curVal)=>{
+//                    acc+curVal
+//     },0)
+
+// }
+// calculateAverage1([4,10,2,8]);
+
+
+let no =[5,5,5,5];
+  const resSum=  no.reduce((acc,curVal)=>{
+  let res = acc+curVal
+  return res
+
+},0)
+console.log(resSum/no.length);
