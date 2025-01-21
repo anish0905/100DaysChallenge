@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function alternativesLetters(firstName, lastName) {
+        let alternatingLetters = "";
+        let maxLength = Math.max(firstName.length, lastName.length);
+        for (let i = 0; i < maxLength; i++) {
+          if (i < firstName.length) {
+            alternatingLetters += firstName[i];
+          }
+          if (i < lastName.length) {
+            alternatingLetters += lastName[i];
+          }
+        }
+        return alternatingLetters;
+      }
+      let firstName = "Anish";
+      let lastName = "kumar";
+
+      let res = alternativesLetters(firstName, lastName);
+      console.log(res);
+    </script>
+  </body>
+</html>
+
+//output Aknuimsahr
